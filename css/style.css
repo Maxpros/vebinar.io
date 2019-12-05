@@ -1,0 +1,523 @@
+/* * {
+margin:0;
+padding:0;
+} */
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+/*===Header==*/
+
+.main-header {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445161;
+    color: #fff;
+}
+
+.main-header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.main-header-wrp {
+    width: 488px;
+    float: left;
+}
+
+.main-header-title {
+    font-size: 60px;
+    font-family: "Arial";
+    line-height: 1.2;
+}
+
+.main-header-list {}
+
+.main-header-list > li:before {
+    content: '✔';
+    padding-right: 10px;
+}
+
+.main-header-list li {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    font-family: "Arial";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    list-style-type: none;
+    display: block;
+    position: relative;
+    left: -38px;
+    top: 5px
+}
+
+.main-header-photo {
+    display: block;
+    min-height: 215px;
+    float: right;
+    border-color: #fff;
+    background-color: #ffffff
+}
+
+
+/*===About your product===*/
+
+.about-product {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.about-product-wrp {
+    width: 649px;
+    float: left;
+}
+
+.about-product:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.about-product-title {
+    color: #445161;
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.about-product-text {
+    color: #333333;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about-product-video {
+    float: right;
+    background-color: #445161;
+}
+
+
+/*===Dignity===*/
+
+.dignity {
+    width: 100%;
+    height: 418px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+.dignity:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.dignity-title {
+    color: #445161;
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-left: 416px;
+}
+
+.dignity-list-first {
+    float: left;
+    width: 568px;
+    padding-top: 30px;
+}
+
+.dignity-list-second {
+    float: right;
+    width: 568px;
+    padding-top: 30px;
+}
+
+.dignity-list-text {
+    color: #333333;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+/*===Screenshots===*/
+
+.screenshots {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.screenshots-title {
+    display: block;
+    width: 100%;
+    margin: 0 0 35px 0;
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.screenshots-wrapper {
+    width: 574px;
+    margin: 0 0 15px 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.screenshots-photo {
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+}
+
+.screenshots-photo-wrapper {
+    width: 359px;
+}
+
+.screenshots-photo-title {
+    display: block;
+    margin-bottom: 15px;
+    font-family: Arial;
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+/*==Reviews==*/
+
+.reviews {
+    width: 100%;
+    height: 380px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+.reviews-title {
+    color: #445161;
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-left: 535px;
+}
+
+.reviews-article-second {
+    padding-top: 12px;
+}
+
+.reviews-wrp {
+    width: 575px;
+    float: left;
+}
+
+.reviews-wrp-second {
+    float: right;
+}
+
+.reviews-personal-photo {
+    display: block;
+    border-radius: 35px;
+    background-color: #445161;
+    float: left;
+}
+
+.comment {
+    width: 470px;
+    height: 101px;
+    margin-left: 50px;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    position: relative;
+    left: 55px;
+}
+
+.comment:before {
+    content: "";
+    border: 15px solid transparent;
+    border-right: 15px solid #ebebeb;
+    position: absolute;
+    top: 20px;
+    left: -30px;
+}
+
+.reviews-article-text {
+    color: #333333;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 5px
+}
+
+.review-article-name {
+    color: #989898;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    position: relative;
+    bottom: 15px;
+    left: 25px;
+}
+
+
+/*==Buy==*/
+
+.buy {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.buy-title {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: #445161;
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.buy-item {
+    width: 300px;
+    background-color: #445162;
+    border-radius: 7px;
+    
+}
+
+.buy-item-subtitle {
+    width: 300px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.buy-item-cost {
+    box-sizing: border-box;
+    color: #445162;
+    height: 71px;
+    font-family: "Arial";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 294px;
+    margin: 0 1px 0 3px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.buy-item-text {
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.buy-item-btn {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: block;
+    width: 260px;
+    min-height: 40px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 14px 0 13px 0;
+}
+
+.buy-item-btn-text {
+    color: #445161;
+    font-family: "Arial";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding: 14px 0 13px 0;
+    font-weight: bold;
+}
+
+.buy-item-btn:hover {
+    background-color: beige;
+}
+
+.buy-item-btn:hover .buy-item-btn-text {
+    color: black;
+}
+
+.buy-item-btn:active {
+    background-color: bisque;
+}
+
+.buy-item-btn:active .buy-item-btn-text {
+    color: dimgray;
+}
+
+
+/*===Contacts===*/
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding: 50px;
+  background-color: #445161;
+}
+
+.contacts-title {
+  display: block;
+  width: 100%;
+  margin:0 0 30px 0;
+  font-family: Arial;
+  color:  #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+
+.contacts-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 500px;
+  margin: 0 46px 0 0;
+}
+
+.contacts-form input[type="text"],
+.contacts-form input[type="email"],
+.contacts-form textarea {
+  width: 100%;
+  height: 40px;
+  margin: 0 0 20px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 7px;
+  background-color:  #ffffff;
+  outline: none;
+  text-transform: capitalize;
+}
+
+
+.contacts-form textarea {
+  width: 500px;
+  height: 170px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  background-color:  #ffffff;
+  outline: none;
+}
+
+input[placeholder],
+textarea[placeholder] {
+ 
+  font-family: Arial;
+  color:  #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}  
+
+
+
+
+.contacts-form input[type="submit"] {
+  border-radius: 5px;
+  background-color:  #ffffff;
+  width: 140px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: Arial;
+  color:  #445162;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  outline: none;
+}
+
+contacts-form input[type="submit"]:hover {
+  background-color: gray;
+  color: white;
+}
+
+.contacts-form input[type="submit"]:active {
+  background-color:  white;
+  color:  gray;
+}
+
+.footer-contacts {
+  width: 240px;
+  height: 300px;
+    
+  
+}
+.footer-contacts-list {
+
+list-style-type: none;
+
+color: #ffffff;
+font-family: "Arial";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+    
+}
+
+
+
+
+.contacts-social-buttons {
+    
+   align-items:flex-end;
+}
+
+
+
+.underfooter {
+justify-content: flex-end;
+}
+
