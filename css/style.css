@@ -317,7 +317,7 @@ body {
     width: 300px;
     background-color: #445162;
     border-radius: 7px;
-    margin-top: 29px;
+    
 }
 
 .buy-item-subtitle {
@@ -396,85 +396,128 @@ body {
 
 
 /*===Contacts===*/
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
-.contacts {
-    width: 100%;
-    padding: 50px;
-    box-sizing: border-box;
-    background-color: #445162;
+  padding: 50px;
+  background-color: #445161;
 }
 
 .contacts-title {
-    display: block;
-    text-align: center;
-    width: 100%;
-    color: #ffffff;
-    font-family: "Arial";
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 36px;
+  display: block;
+  width: 100%;
+  margin:0 0 30px 0;
+  font-family: Arial;
+  color:  #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
 }
 
-input[type="name"],
-input[type="email"] {
-    width: 500px;
-    height: 40px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    color: #445162;
-    font-family: "Arial";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    outline: none;
+.contacts-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 500px;
+  margin: 0 46px 0 0;
 }
 
-input [placeholder="Your name:"],
-input [placeholder="Your email:"] {
-    font-size: px;
-}
-
-textarea {
-    width: 500px;
-    height: 170px;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    border-radius: 15px;
-    resize: none;
-    outline: none;
-}
-
-.input {
-    padding-left: 199px
-}
-
-.contacts-button {
-    display: block;
-    width: 140px;
-    height: 40px;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 7px;
-    padding: 8px 0 14px 0;
-    text-transform: uppercase;
-    color: #445162;
-    font-family: "Arial";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    font-weight: bold;
+.contacts-form input[type="text"],
+.contacts-form input[type="email"],
+.contacts-form textarea {
+  width: 100%;
+  height: 40px;
+  margin: 0 0 20px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 7px;
+  background-color:  #ffffff;
+  outline: none;
+  text-transform: capitalize;
 }
 
 
-/*==Footer==*/
-
-.footer {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 14px;
-    font-family: "Arial";
-    padding: 8px;
+.contacts-form textarea {
+  width: 500px;
+  height: 170px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  background-color:  #ffffff;
+  outline: none;
 }
+
+input[placeholder],
+textarea[placeholder] {
+ 
+  font-family: Arial;
+  color:  #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}  
+
+
+
+
+.contacts-form input[type="submit"] {
+  border-radius: 5px;
+  background-color:  #ffffff;
+  width: 140px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: Arial;
+  color:  #445162;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  outline: none;
+}
+
+contacts-form input[type="submit"]:hover {
+  background-color: gray;
+  color: white;
+}
+
+.contacts-form input[type="submit"]:active {
+  background-color:  white;
+  color:  gray;
+}
+
+.footer-contacts {
+  width: 240px;
+  height: 300px;
+    
+  
+}
+.footer-contacts-list {
+
+list-style-type: none;
+
+color: #ffffff;
+font-family: "Arial";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+    
+}
+
+
+
+
+.contacts-social-buttons {
+    
+   align-items:flex-end;
+}
+
+
+
+.underfooter {
+justify-content: flex-end;
+}
+
